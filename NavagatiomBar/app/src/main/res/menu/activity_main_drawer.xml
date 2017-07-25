@@ -4,20 +4,33 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_layout"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="First Layout" />
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Restaurants" />
         <item
             android:id="@+id/nav_second_layout"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Second Layout" />
+            android:title="Food Trucks" />
         <item
             android:id="@+id/nav_third_layout"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Third Layout" />
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Picture Perfect" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Museums" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cool PLaces" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Filming Locations" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Us" />
     </group>
 
     <item android:title="Communicate">

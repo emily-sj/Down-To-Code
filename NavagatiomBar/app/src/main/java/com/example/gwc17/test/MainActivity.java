@@ -1,5 +1,6 @@
 package com.example.gwc17.test;
 
+import android.app.ListFragment;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_first_layout) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame,
-                            new android.app.Fragment())
+                            new ListFragment())
                     .commit();
 
 
@@ -94,20 +95,46 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_second_layout) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame,
-                            new android.app.Fragment())
+                            new ListFragment())
                     .commit();
 
         } else if (id == R.id.nav_third_layout) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame,
-                            new android.app.Fragment())
+                            new ListFragment())
                     .commit();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_third_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame,
+                            new ListFragment())
+                    .commit();
+        } else if (id == R.id.nav_third_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame,
+                            new ListFragment())
+                    .commit();
+        } else if (id == R.id.nav_third_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame,
+                            new ListFragment())
+                    .commit();
+        } else if (id == R.id.nav_third_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame,
+                            new ListFragment())
+                    .commit();
+        } else if (id == R.id.nav_third_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame,
+                            new ListFragment())
+                    .commit();
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_first_layout) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_second_layout) {
+
+        } else if (id == R.id.nav_third_layout) {
 
         }
 
