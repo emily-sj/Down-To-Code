@@ -8,7 +8,8 @@
             android:title="Restaurants" />
         <item
             android:id="@+id/nav_second_layout"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_action_food1"
+            android:titleTextColor="@color/colorPrimary"
             android:title="Food Trucks" />
         <item
             android:id="@+id/nav_third_layout"
@@ -16,7 +17,7 @@
             android:title="Picture Perfect" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_action_bank"
             android:title="Museums" />
 
         <item
@@ -25,11 +26,11 @@
             android:title="Cool PLaces" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_action_movie"
             android:title="Filming Locations" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_action_pika"
             android:title="About Us" />
     </group>
 
